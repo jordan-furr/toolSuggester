@@ -21,7 +21,6 @@ export default function BeginQuiz() {
           </Link>
           <Link href={"/begin/d"}>
             <p className="quizAnswer">Side project / Creative pursuits</p>
-
           </Link>
         </div>
       </div>

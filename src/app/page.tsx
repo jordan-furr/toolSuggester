@@ -25,7 +25,7 @@ export default function Home() {
         </div>
         <div className="heroText">
           <div>
-            <p className="heroQuestion">What's your scenario?</p>
+            <p className="heroQuestion">What&apos;s your scenario?</p>
             <p className="description">Personalized suggestions from 42 tools for uncertainty</p>
           </div>
 

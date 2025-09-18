@@ -20,7 +20,7 @@ export default function ResultACA() {
                     <div className="ctas">
                         <Link
                             className="primary"
-                            href="/begin"
+                            href="/"
                         >
                             <Image
                                 className="logo"

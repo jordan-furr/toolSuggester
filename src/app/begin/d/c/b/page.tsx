@@ -20,7 +20,7 @@ export default function ResultDCC() {
                     <div className="ctas">
                         <Link
                             className="primary"
-                            href="/begin"
+                            href="/"
                         >
                             <Image
                                 className="logo"

@@ -66,7 +66,7 @@
   appearance: none;
   border-radius: 128px;
   height: 48px;
-  padding: 0 24px;
+  padding: 8px 24px;
   border: 1px solid transparent;
   transition:
     background 0.2s,
@@ -144,7 +144,7 @@
 
   .main {
     align-items: center;
-    gap: 36px;
+    gap: 28px;
   }
 
   .heroText {
@@ -152,8 +152,8 @@
   }
 
   .ctas a {
-    font-size: 16px;
-    height: 44px;
+    font-size: 18px;
+    height: 48px;
   }
 
   .footer {
@@ -163,7 +163,7 @@
   }
 
   .bookCont {
-    width: 30vw;
+    width: 33vw;
   }
 
   .heroQuestion {

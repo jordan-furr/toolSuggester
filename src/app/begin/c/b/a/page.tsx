@@ -20,7 +20,7 @@ export default function ResultCBA() {
                     <div className="ctas">
                         <Link
                             className="primary"
-                            href="/begin"
+                            href="/"
                         >
                             <Image
                                 className="logo"

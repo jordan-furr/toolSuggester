@@ -1,54 +1,39 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import "@/app/page.css"
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <div className="page">
+      <main className="main">
         <Image
-          className={styles.logo}
-          src="/next.svg"
+          className="logo"
+          src="/theupside.jpg"
           alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+          width={166}
+          height={250}
         />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+        <div className="ctas">
+          <Link
+            className="primary"
+            href="/begin"
           >
             <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
+              className="logo"
+              src="/up.png"
+              alt="UP First Aid Cross"
               width={20}
               height={20}
             />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+            Begin now
+          </Link>
+
         </div>
       </main>
-      <footer className={styles.footer}>
+      <footer className="footer">
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://www.amazon.com/Upside-Uncertainty-Guide-Finding-Possibility/dp/1647823013?adgrpid=180038482722&hvpone=&hvptwo=&hvadid=748008426882&hvpos=&hvnetw=g&hvrand=11061902880981339779&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9199217&hvtargid=dsa-2414841787086&hydadcr=&mcid=&hvocijid=11061902880981339779--&hvexpln=67&tag=googhydr-20&hvsb=Money_d&hvcampaign=dsadesk"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -59,10 +44,10 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Learn
+          Read the book
         </a>
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://spintheupwheel.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -73,10 +58,10 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Examples
+          42 Tool Dashboard
         </a>
         <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://theupsideofuncertainty.com"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -87,7 +72,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          theupsideofuncertainty.com →
         </a>
       </footer>
     </div>

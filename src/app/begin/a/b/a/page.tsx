@@ -7,16 +7,17 @@ export default function ResultABA() {
         <div className="resultPage">
             <div></div>
             <div className="resultCont">
+                {/* Career, Neutral, Inspiration */}
                 <p className="quizQuestion">Well done! Consider these three tools:</p>
                 <div className="suggestions">
                     <p className="toolName">Framing (#1)</p>
                     <p className="toolText">When you reframe uncertainty as possibility, your ability to navigate it increases because your experience shifts from the fear of loss to the anticipation of gain.</p>
 
-                    <p className="toolName">Aplomb (#8)</p>
-                    <p className="toolText">Self-doubt accompanies the unknown. What we don’t realize is how many people, including our heroes and geniuses, share it. There is a better way.</p>
+                    <p className="toolName">Infinite Game (#5)</p>
+                    <p className="toolText">Infinite players learn to question the boundaries, the rules, and the game itself, reinventing both the games they are playing and themselves.</p>
 
-                    <p className="toolName">Bricolage (#23)</p>
-                    <p className="toolText">Innovators don’t wait for the perfect circumstance to take action. Instead they use whatever they have at hand to get started, which, in a twist of fate, often helps them discover yet more possibilities.</p>
+                    <p className="toolName">Personal Real Options (#12)</p>
+                    <p className="toolText">Research on hybrid entrepreneurs reveals that risking it all is often counterproductive. Having a portfolio of both certain and uncertain projects helps reduce anxiety while increasing your chances of success.</p>
                     <div className="ctas">
                         <Link
                             className="primary"

@@ -7,13 +7,14 @@ export default function ResultAAC() {
         <div className="resultPage">
             <div></div>
             <div className="resultCont">
+                {/* Career, Too Low, Next Steps */}
                 <p className="quizQuestion">Well done! Consider these three tools:</p>
                 <div className="suggestions">
-                    <p className="toolName">Framing (#1)</p>
-                    <p className="toolText">When you reframe uncertainty as possibility, your ability to navigate it increases because your experience shifts from the fear of loss to the anticipation of gain.</p>
+                    <p className="toolName">Regret Minimization (#7)</p>
+                    <p className="toolText">How do you make decisions when you don’t know the outcome? Simple frameworks used by innovators help you to make wise choices.</p>
 
-                    <p className="toolName">Aplomb (#8)</p>
-                    <p className="toolText">Self-doubt accompanies the unknown. What we don’t realize is how many people, including our heroes and geniuses, share it. There is a better way.</p>
+                    <p className="toolName">Runways & Landing Strips (#14)</p>
+                    <p className="toolText">Runways and landing strips are the money and time to get your ideas off the ground and the networks that give you new opportunities.</p>
 
                     <p className="toolName">Bricolage (#23)</p>
                     <p className="toolText">Innovators don’t wait for the perfect circumstance to take action. Instead they use whatever they have at hand to get started, which, in a twist of fate, often helps them discover yet more possibilities.</p>

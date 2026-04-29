@@ -7,16 +7,17 @@ export default function ResultAAA() {
         <div className="resultPage">
             <div></div>
             <div className="resultCont">
+                {/* Career, Too Low, Assurance */}
                 <p className="quizQuestion">Well done! Consider these three tools:</p>
                 <div className="suggestions">
-                    <p className="toolName">Framing (#1)</p>
-                    <p className="toolText">When you reframe uncertainty as possibility, your ability to navigate it increases because your experience shifts from the fear of loss to the anticipation of gain.</p>
+                    <p className="toolName">Reverse Insurance (#2)</p>
+                    <p className="toolText">An instinctual fear of uncertainty sometimes leads us to forget that we also need uncertainty. Humans need surprise, spontaneity, and change—and those things are inherently uncertain.</p>
 
-                    <p className="toolName">Aplomb (#8)</p>
-                    <p className="toolText">Self-doubt accompanies the unknown. What we don’t realize is how many people, including our heroes and geniuses, share it. There is a better way.</p>
+                    <p className="toolName">Fait Sur Mesure (#16)</p>
+                    <p className="toolText">Sometimes we fall into the trap of following someone else’s plan for our life. We forget that we can, at any time, customize our lives in bright and beautiful ways. Your life should be, as the French say, fait sur mesure—made to your measure.</p>
 
-                    <p className="toolName">Bricolage (#23)</p>
-                    <p className="toolText">Innovators don’t wait for the perfect circumstance to take action. Instead they use whatever they have at hand to get started, which, in a twist of fate, often helps them discover yet more possibilities.</p>
+                    <p className="toolName">Riding The Waves (#26)</p>
+                    <p className="toolText">Emotions come in waves, with highs and lows. Know that the cycle is natural—everyone feels it. If you’re at a low point, better times are coming!</p>
                     <div className="ctas">
                         <Link
                             className="primary"

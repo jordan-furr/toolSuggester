@@ -50,7 +50,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          theupsideofuncertainty.com →
+          theupsideofuncertainty.com
         </a>
       </footer>
     </div>

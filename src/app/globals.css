@@ -40,21 +40,24 @@ a {
   .quizQuestion,
   .toolName,
   .resultIntro,
-  .heroQuestion { color: #f0f0f0; }
+  .quizAnswer,
+  .quizAnswerMain,
+  .heroQuestion { color: #f0f0f0 !important; }
 
-  .toolText { color: #999; }
-  .description { color: #aaa; }
+  .toolText { color: #999 !important; }
+  .description { color: #aaa !important; }
   .quizAnswerSub { color: #666; }
 
-  .toolCard { border-bottom-color: #333; }
-
-  .resultEyebrow,
-  .stepIndicator,
-  .eyebrow { color: #f5dc7b; opacity: 1; }
+  .toolCard { border-bottom-color: #494949 !important; }
+  .toolNumber, .eyebrow, .resultEyebrow,
+  .stepIndicator { color: #e7ff71 !important; }
 
   .quizAnswer {
-    color: #f0f0f0;
-    border-color: #333;
+    color: #f0f0f0 !important;
+    border-color: #e7ff71 !important;
+  }
+  .book {
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 12px 40px rgba(0,0,0,0.5);
   }
   .quizAnswer:hover { background: rgba(17, 147, 94, 0.08); }
 
@@ -68,17 +71,18 @@ a {
   }
 
   .ctas .primary:nth-child(2),
-  .ctas .primary:nth-child(3) {
-    background: transparent;
-    color: white;
-    border: 1px solid rgba(255,255,255,0.4);
+  .ctas .primary:nth-child(3),
+  .ctas .primary:nth-child(4) {
+    background: rgba(255,255,255,0.05) !important;
+    color: white !important;
   }
   .ctas .primary:nth-child(2):hover,
-  .ctas .primary:nth-child(3):hover {
+  .ctas .primary:nth-child(3):hover,
+  .ctas .primary:nth-child(4):hover {
     border-color: white;
     background: rgba(255,255,255,0.05);
   }
 
-  .footer { border-top-color: #222; }
+  .footer { border-top-color:  rgba(255,255,255,0.05) !important; }
   .footer a { color: #555; }
 }

@@ -13,10 +13,12 @@ export default function BeginQuiz() {
         <div className="questionList">
           {q1.options.map((opt) => (
             <Link key={opt.value} href={`/begin/${opt.value}`}>
-              <p className="quizAnswer">
-                {opt.label}
-                {opt.sublabel ? ` (${opt.sublabel})` : ""}
-              </p>
+              <div className="quizAnswer">
+                <div>
+                  <span className="quizAnswerMain">{opt.label}</span>
+                  {opt.sublabel && <span className="quizAnswerSub">{opt.sublabel}</span>}
+                </div>
+              </div>
             </Link>
           ))}
         </div>

@@ -24,21 +24,22 @@ export const questions: QuizQuestion[] = [
       {
         value: "a",
         label: "Career",
-        sublabel: "workload stress / career change / decisions at work",
+        sublabel: "workload / career change / decisions at work",
       },
       {
         value: "b",
         label: "Finances",
-        sublabel: "personal / business / global",
+        sublabel: "personal / decisions and risk / economic change",
       },
       {
         value: "c",
         label: "Relationship",
-        sublabel: "partnership / family / friendship / community",
+        sublabel: "partnership / family & friendship / conflict",
       },
       {
         value: "d",
-        label: "Side Project / Creative Pursuits",
+        label: "Side Project",
+        sublabel: "creative blocks / starting something new / ideas",
       },
     ],
   },

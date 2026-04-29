@@ -7,6 +7,7 @@ export default function ResultABB() {
         <div className="resultPage">
             <div></div>
             <div className="resultCont">
+                {/* Career, Neutral, Assurance */}
                 <p className="quizQuestion">Well done! Consider these three tools:</p>
                 <div className="suggestions">
                     <p className="toolName">Framing (#1)</p>

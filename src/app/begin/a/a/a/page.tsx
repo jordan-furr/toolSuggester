@@ -2,21 +2,23 @@ import "@/app/page.css"
 import Link from "next/link";
 import Image from "next/image";
 
+
 export default function ResultAAB() {
     return (
         <div className="resultPage">
             <div></div>
             <div className="resultCont">
+                {/* Career, Too Low, Inspiration */}
                 <p className="quizQuestion">Well done! Consider these three tools:</p>
                 <div className="suggestions">
-                    <p className="toolName">Framing (#1)</p>
-                    <p className="toolText">When you reframe uncertainty as possibility, your ability to navigate it increases because your experience shifts from the fear of loss to the anticipation of gain.</p>
+                    <p className="toolName">Frontiers (#3)</p>
+                    <p className="toolText">Frontiers can feel daunting, but they are where we do our best work. There are myriad accessible frontiers awaiting us that could transform our daily lives.</p>
 
-                    <p className="toolName">Aplomb (#8)</p>
-                    <p className="toolText">Self-doubt accompanies the unknown. What we don’t realize is how many people, including our heroes and geniuses, share it. There is a better way.</p>
-
-                    <p className="toolName">Bricolage (#23)</p>
-                    <p className="toolText">Innovators don’t wait for the perfect circumstance to take action. Instead they use whatever they have at hand to get started, which, in a twist of fate, often helps them discover yet more possibilities.</p>
+                    <p className="toolName">Adjacent Possible (#4)</p>
+                    <p className="toolText">Adjacent possibles are the infinite ways in which the future can be reinvented, hovering at the edge of our awareness, waiting to be discovered.</p>
+                    
+                    <p className="toolName">As If (#39)</p>
+                    <p className="toolText">Living as if something was already true is a technique philosophers and political activists use to invoke action and change. Living as if possibilities exist can increase the chances that they will come to be and helps us endure while we wait for them.</p>
                     <div className="ctas">
                         <Link
                             className="primary"

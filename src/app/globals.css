@@ -37,7 +37,48 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+  .quizQuestion,
+  .toolName,
+  .resultIntro,
+  .heroQuestion { color: #f0f0f0; }
+
+  .toolText { color: #999; }
+  .description { color: #aaa; }
+  .quizAnswerSub { color: #666; }
+
+  .toolCard { border-bottom-color: #333; }
+
+  .resultEyebrow,
+  .stepIndicator,
+  .eyebrow { color: #f5dc7b; opacity: 1; }
+
+  .quizAnswer {
+    color: #f0f0f0;
+    border-color: #333;
   }
+  .quizAnswer:hover { background: rgba(17, 147, 94, 0.08); }
+
+  .ctas .primary:nth-child(1) {
+    background: #11935e;
+    color: white;
+    border-color: #11935e;
+  }
+  .ctas .primary:nth-child(1):hover {
+    background: #0e7d50;
+  }
+
+  .ctas .primary:nth-child(2),
+  .ctas .primary:nth-child(3) {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.4);
+  }
+  .ctas .primary:nth-child(2):hover,
+  .ctas .primary:nth-child(3):hover {
+    border-color: white;
+    background: rgba(255,255,255,0.05);
+  }
+
+  .footer { border-top-color: #222; }
+  .footer a { color: #555; }
 }

@@ -23,7 +23,7 @@ export default async function ResultsPage({ params }: Props) {
       <div></div>
       <div className="resultCont">
         <p className="resultEyebrow">Based on your answers</p>
-        <p className="resultIntro">Three tools for where you are at:</p>
+        <p className="resultIntro">Three tools to consider:</p>
         <div className="suggestions">
           {tools.map((tool) => (
             <div key={tool!.id} className="toolCard">
@@ -78,7 +78,7 @@ export default async function ResultsPage({ params }: Props) {
             width={16}
             height={16}
           />
-          theupsideofuncertainty.com →
+          theupsideofuncertainty.com
         </a>
       </footer>
     </div >

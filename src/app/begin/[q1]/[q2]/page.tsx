@@ -9,7 +9,7 @@ interface Props {
 
 export default async function Q3Page({ params }: Props) {
   const { q1, q2 } = await params;
-  if (!["a", "b", "c", "d"].includes(q1) || !["a", "b", "c"].includes(q2)) notFound();
+  if (!["1", "2", "3", "4"].includes(q1) || !["1", "2", "3"].includes(q2)) notFound();
 
   const q3 = questions[2];
 
@@ -21,7 +21,12 @@ export default async function Q3Page({ params }: Props) {
         <div className="questionList">
           {q3.options.map((opt) => (
             <Link key={opt.value} href={`/begin/${q1}/${q2}/${opt.value}`}>
-              <p className="quizAnswer">{opt.label}</p>
+              <div className="quizAnswer">
+                <div>
+                  <span className="quizAnswerMain">{opt.label}</span>
+                  {opt.sublabel && <span className="quizAnswerSub">{opt.sublabel}</span>}
+                </div>
+              </div>
             </Link>
           ))}
         </div>
@@ -32,8 +37,8 @@ export default async function Q3Page({ params }: Props) {
 
 export async function generateStaticParams() {
   const params = [];
-  for (const q1 of ["a", "b", "c", "d"]) {
-    for (const q2 of ["a", "b", "c"]) {
+  for (const q1 of ["1", "2", "3", "4"]) {
+    for (const q2 of ["1", "2", "3"]) {
       params.push({ q1, q2 });
     }
   }

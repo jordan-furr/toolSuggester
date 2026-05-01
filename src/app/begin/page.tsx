@@ -1,8 +1,8 @@
-import "@/app/page.css"
+import "@/app/page.css";
 import Link from "next/link";
 import { questions } from "@/data/quiz";
 
-export default function BeginQuiz() {
+export default function BeginPage() {
   const q1 = questions[0];
 
   return (

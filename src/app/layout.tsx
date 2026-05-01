@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: "Tool Suggester | The Upside of Uncertainty",
   description: "Answer 3 questions and get personalized suggestions from 42 tools for navigating uncertainty.",
   openGraph: {
-    title: "What's your scenario?",
+    title: "Tool Suggester | The Upside of Uncertainty",
     description: "Personalized suggestions from 42 tools for uncertainty.",
-    url: "https://tool-suggester.vercel.app",
+    url: "https://suggester.theupsideofuncertainty.org",
     siteName: "The Upside of Uncertainty",
     images: [
       {
-        url: "https://tool-suggester.vercel.app/og-image.png",
+        url: "https://suggester.theupsideofuncertainty.org/og-image.png",
         width: 1200,
         height: 630,
         alt: "What's your scenario? — The Upside of Uncertainty",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "What's your scenario?",
+    title: "Tool Suggester | The Upside of Uncertainty",
     description: "Personalized suggestions from 42 tools for uncertainty.",
-    images: ["https://tool-suggester.vercel.app/og-image.png"],
+    images: ["https://suggester.theupsideofuncertainty.org/og-image.png"],
   },
 };
 
